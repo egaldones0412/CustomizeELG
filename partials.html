@@ -1,0 +1,65 @@
+<!-- Note: This file is illustrative. In pure static hosting you’ll copy header/footer into each page.
+If you later adopt a static site generator, you can turn these into includes. -->
+<header class="header">
+  <div class="container bar">
+    <a href="index.html" class="brand">
+      <img src="assets/images/logo-placeholder.svg" alt="Company logo" />
+      <span>Acme Accounting</span>
+    </a>
+    <nav class="nav nav-desktop">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="industries.html">Industries</a>
+      <a href="resources.html">Resources</a>
+      <a href="blog.html">Blog</a>
+      <a href="faq.html">FAQs</a>
+      <a href="contact.html" class="cta">Contact</a>
+      <a href="schedule.html" class="cta secondary">Schedule</a>
+    </nav>
+    <button id="burger" class="cta ghost nav-mobile">Menu</button>
+  </div>
+  <div id="mobileMenu" class="mobile-menu">
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="industries.html">Industries</a>
+    <a href="resources.html">Resources</a>
+    <a href="blog.html">Blog</a>
+    <a href="faq.html">FAQs</a>
+    <a href="contact.html">Contact</a>
+    <a href="schedule.html">Schedule</a>
+  </div>
+</header>
+
+<footer class="footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <div class="brand" style="color:#dbe7f5">
+          <img src="assets/images/logo-placeholder.svg" alt="" />
+          <span>Acme Accounting</span>
+        </div>
+        <p style="opacity:.9">Modern bookkeeping, tax, payroll, and advisory services for small to mid-sized businesses.</p>
+        <p><b>Call:</b> (555) 000-1234<br><b>Email:</b> hello@example.com<br><b>Address:</b> 123 Main St, Suite 200, City, ST</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <p><a href="about.html">About</a><br><a href="testimonials.html">Testimonials</a><br><a href="careers.html">Careers</a></p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <p><a href="service-bookkeeping.html">Bookkeeping</a><br><a href="service-tax.html">Tax</a><br><a href="service-payroll.html">Payroll</a><br><a href="service-advisory.html">CFO & Advisory</a></p>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <p><a href="privacy.html">Privacy Policy</a><br><a href="terms.html">Terms of Service</a></p>
+      </div>
+    </div>
+    <div style="border-top:1px solid #20354b; margin-top:18px; padding-top:12px; display:flex; justify-content:space-between; align-items:center;">
+      <small>© <span id="year"></span> Acme Accounting. All rights reserved.</small>
+      <small>Made with care.</small>
+    </div>
+  </div>
+  <script>
+    document.getElementById('year') && (document.getElementById('year').textContent = new Date().getFullYear());
+  </script>
+</footer>

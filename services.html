@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Services — Acme Accounting</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Bookkeeping, tax planning and preparation, payroll management, and CFO advisory services." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container bar">
+      <a href="index.html" class="brand">
+        <img src="assets/images/logo-placeholder.svg" alt="" />
+        <span>Acme Accounting</span>
+      </a>
+      <nav class="nav nav-desktop">
+        <a href="about.html">About</a>
+        <a class="active" href="services.html">Services</a>
+        <a href="industries.html">Industries</a>
+        <a href="resources.html">Resources</a>
+        <a href="blog.html">Blog</a>
+        <a href="faq.html">FAQs</a>
+        <a href="contact.html" class="cta">Contact</a>
+        <a href="schedule.html" class="cta secondary">Schedule</a>
+      </nav>
+      <button id="burger" class="cta ghost nav-mobile">Menu</button>
+    </div>
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="industries.html">Industries</a>
+      <a href="resources.html">Resources</a>
+      <a href="blog.html">Blog</a>
+      <a href="faq.html">FAQs</a>
+      <a href="contact.html">Contact</a>
+      <a href="schedule.html">Schedule</a>
+    </div>
+  </header>
+
+  <section class="section hero" style="padding:48px 0">
+    <div class="container">
+      <h1>Services</h1>
+      <p class="muted">Flexible monthly plans and custom engagements.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid-4">
+      <div class="card">
+        <h3>Bookkeeping</h3>
+        <p>Clean, timely financials so you always know where you stand.</p>
+        <a class="more" href="service-bookkeeping.html">See details →</a>
+      </div>
+      <div class="card">
+        <h3>Tax</h3>
+        <p>Strategy + filings to keep your tax bill predictable and low.</p>
+        <a class="more" href="service-tax.html">See details →</a>
+      </div>
+      <div class="card">
+        <h3>Payroll</h3>
+        <p>Accurate and compliant payroll with benefits and filings.</p>
+        <a class="more" href="service-payroll.html">See details →</a>
+      </div>
+      <div class="card">
+        <h3>CFO & Advisory</h3>
+        <p>Forecasts, KPIs, and financial leadership on demand.</p>
+        <a class="more" href="service-advisory.html">See details →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <header><h2>Sample monthly packages</h2></header>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Starter</h3>
+          <ul>
+            <li>Monthly bookkeeping</li>
+            <li>Bank/CC reconciliation</li>
+            <li>Quarterly review</li>
+          </ul>
+          <a href="schedule.html" class="cta">Get quote</a>
+        </div>
+        <div class="card">
+          <h3>Growth</h3>
+          <ul>
+            <li>Everything in Starter</li>
+            <li>Payroll</li>
+            <li>Monthly reporting call</li>
+          </ul>
+          <a href="schedule.html" class="cta">Get quote</a>
+        </div>
+        <div class="card">
+          <h3>Scale</h3>
+          <ul>
+            <li>Everything in Growth</li>
+            <li>Cash flow forecasting</li>
+            <li>Quarterly tax planning</li>
+          </ul>
+          <a href="schedule.html" class="cta">Get quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer"><div class="container"><div class="cols"><div><div class="brand" style="color:#dbe7f5"><img src="assets/images/logo-placeholder.svg" alt="" /><span>Acme Accounting</span></div><p style="opacity:.9">Modern bookkeeping, tax, payroll, and advisory services.</p><p><b>Call:</b> (555) 000-1234<br><b>Email:</b> hello@example.com<br><b>Address:</b> 123 Main St, Suite 200, City, ST</p></div><div><h4>Company</h4><p><a href="about.html">About</a><br><a href="testimonials.html">Testimonials</a><br><a href="careers.html">Careers</a></p></div><div><h4>Services</h4><p><a href="service-bookkeeping.html">Bookkeeping</a><br><a href="service-tax.html">Tax</a><br><a href="service-payroll.html">Payroll</a><br><a href="service-advisory.html">CFO & Advisory</a></p></div><div><h4>Legal</h4><p><a href="privacy.html">Privacy Policy</a><br><a href="terms.html">Terms of Service</a></p></div></div><div style="border-top:1px solid #20354b; margin-top:18px; padding-top:12px; display:flex; justify-content:space-between; align-items:center;"><small>© <span id="year"></span> Acme Accounting. All rights reserved.</small><small>Made with care.</small></div></div><script>document.getElementById('year').textContent=new Date().getFullYear()</script></footer>
+</body>
+</html>
